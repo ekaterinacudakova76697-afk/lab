@@ -3,10 +3,10 @@ a = int(input())
 b = int(input())
 op = input()
 res = ''
-if op == '+':
-    res = a + b
-elif op == '-':
-    res = a-b 
+if op == '-':
+    res = a - b
+elif op == '+':
+    res = a+b 
 elif op == '*':
     res = a * b
 elif op == '/':
